@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background:rgb(5, 230, 230)
+}
+
+.header{
+    position: fixed;
+    top:0px;
+    left: 0;
+    width: 100;
+    padding: 20px 10%;
+    background: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 29px;
+    color: peru;
+    text-decoration: none;
+    font-weight: 600;
+}
+.About{
+    height: 100;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    font-size: 18px;
+    
+}
+
+.About-content{
+    max-width: 600px;
+}
+ 
+.About-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color:black
+}
+
+.About-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: red;
+}
+.skill{
+    color: black;
+    text-align:left;
+    padding: 100px;
+    align-content: center; 
+    font-size: 18px; 
+    line-height:1.6;
+}
+
+.project{
+    color:black;
+    text-align: left;
+    align-items: center;
+    top: 10px;
+    line-height: 1.6;
+}
+.img-erick{
+    width: 100px;
+    background-image: url(img-erick);
+    background-size: contain;
+    border-radius: 19px;
+    border-style: hidden;
+}
+
+
